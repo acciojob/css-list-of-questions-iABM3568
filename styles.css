@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+        }
+
+        /* Page heading */
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        /* 
+        BLOCKQUOTE STYLING - Questions Container
+        */
+        .questions {
+            background-color: #f8fffe;      /* Light cyan background */
+            height: 50px;                   /* Fixed height */
+            margin-top: 20px;               /* Space above each question */
+            padding: 15px;                  /* Space inside the box */
+            max-width: 600px;               /* Maximum width */
+            border-left: 8px solid green;   /* Green left border */
+            
+            /* Additional styling for better appearance */
+            margin-left: auto;              /* Centers the blockquote */
+            margin-right: auto;             /* Centers the blockquote */
+            display: flex;                  /* Flexbox for vertical centering */
+            align-items: center;            /* Vertically centers text */
+        }
+
+        /* 
+        PARAGRAPH STYLING - Question Text
+        
+        */
+        .questions p {
+            margin: 0;                      /* Remove default margin */
+            color: #333;                    /* Dark gray text */
+            font-size: 16px;                /* Text size */
+            line-height: 1.4;               /* Line height for readability */
+        }
